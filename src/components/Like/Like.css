@@ -1,0 +1,15 @@
+.like-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    cursor: pointer;
+}
+
+.like-wrapper--disabled {
+    cursor: default;
+    opacity: 1 !important;
+}
+
+.like-wrapper:hover {
+    opacity: 0.8;
+}
